@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apsu - Login</title>
+
+    <!-- Chamada da CSS do BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+<!-- Chamada da minha CSS  -->
+    <link rel="stylesheet" href="/css/style.css">
+<!-- Chamada da minha CSS  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<!--img src="/images/APSU Logo.png" alt="Logo Apsu"-->
+<body>
+  <div class="wrapper">
+    <img src="/images/Apsu.png" alt="Logo Apsu">
+    <h1>Login</h1>
+
+    <form name="Login" id="LoginID" method="post">
+    <div class="input-box">
+    
+    <label for="User">Nome de Usuário</label>
+    <input type="text" id="UserFormID" name="Usuário" placeholder="Usuário" required >
+    <i class='bx bxs-user'></i>
+  </div>
+
+  <div class="input-box">
+    
+    <label for="Password">Senha</label>
+    <input type="password" id="SenhaID" name="Senha" required placeholder="Senha">
+    <i class='bx bxs-lock-alt' ></i>
+  </div>
+
+  <div class="remember-forgot">
+    <label><input type="checkbox"> Lembrar acesso </label>
+    <a href="placeholder">Esqueci minha senha</a>
+  </div>
+  <div class="btn-div">
+  <button type="submit" class="btn">Login
+  </button>
+  </div>
+</form>
+  <!--
+  <div class="cadastre-se">
+    <p>Cadastre-se <a href="placeholder"></a>
+    </p>
+  </div> -->
+<div class="cadastre-se">
+  <h3>Cadastre-se</h3>
+  <i class='bx bx-envelope' ></i>
+  <a href="Email">Email</a> 
+  <br>
+  <i class='bx bxl-google' ></i>
+  <a href="Email">Google</a>
+  <br>
+  <i class='bx bxl-facebook-circle' ></i>
+  <a href="Email">Facebook</a>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Chamada do Javascript do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
